@@ -1,0 +1,29 @@
+REAL ESTATE PRICE PREDICTION
+MODEL EVALUATION REPORT
+
+Dataset: cleaned_property.csv
+
+Total Models: 3
+
+1. Linear Regression
+R2 Score: 0.223099
+MAE: 14251090
+RMSE: 29178600
+
+2. Decision Tree
+R2 Score: 0.757772
+MAE: 4779885
+RMSE: 16482360
+
+3. Random Forest
+R2 Score: 0.798471
+MAE: 4618812
+RMSE: 14851270
+
+BEST MODEL:
+Random Forest
+
+CONCLUSION:
+Random Forest achieved the best performance
+among all three trained models.
+It will be used for real estate price prediction.
