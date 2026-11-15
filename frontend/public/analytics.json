@@ -1,0 +1,220 @@
+{
+  "dataset": {
+    "source": "cleaned_property.csv",
+    "records": 191374,
+    "pricedRecords": 191374,
+    "cities": 5,
+    "provinces": 3,
+    "averagePrice": 16447537
+  },
+  "cityPrices": [
+    {
+      "name": "Karachi",
+      "averagePrice": 19839418,
+      "count": 60482
+    },
+    {
+      "name": "Lahore",
+      "averagePrice": 19445553,
+      "count": 58731
+    },
+    {
+      "name": "Islamabad",
+      "averagePrice": 13482394,
+      "count": 40187
+    },
+    {
+      "name": "Rawalpindi",
+      "averagePrice": 8314133,
+      "count": 22894
+    },
+    {
+      "name": "Faisalabad",
+      "averagePrice": 8093145,
+      "count": 9080
+    }
+  ],
+  "provinceDistribution": [
+    {
+      "name": "Punjab",
+      "count": 90705
+    },
+    {
+      "name": "Sindh",
+      "count": 60482
+    },
+    {
+      "name": "Islamabad Capital",
+      "count": 40187
+    }
+  ],
+  "propertyTypeDistribution": [
+    {
+      "name": "House",
+      "count": 118901
+    },
+    {
+      "name": "Flat",
+      "count": 40156
+    },
+    {
+      "name": "Upper Portion",
+      "count": 18473
+    },
+    {
+      "name": "Lower Portion",
+      "count": 11692
+    },
+    {
+      "name": "Room",
+      "count": 1029
+    },
+    {
+      "name": "Farm House",
+      "count": 724
+    },
+    {
+      "name": "Penthouse",
+      "count": 399
+    }
+  ],
+  "averagePrices": [
+    {
+      "name": "Farm House",
+      "averagePrice": 55766558,
+      "count": 724
+    },
+    {
+      "name": "House",
+      "averagePrice": 23031340,
+      "count": 118901
+    },
+    {
+      "name": "Penthouse",
+      "averagePrice": 16661955,
+      "count": 399
+    },
+    {
+      "name": "Flat",
+      "averagePrice": 7965732,
+      "count": 40156
+    },
+    {
+      "name": "Upper Portion",
+      "averagePrice": 1593884,
+      "count": 18473
+    },
+    {
+      "name": "Lower Portion",
+      "averagePrice": 1071563,
+      "count": 11692
+    },
+    {
+      "name": "Room",
+      "averagePrice": 305206,
+      "count": 1029
+    }
+  ],
+  "bedroomPrices": [
+    {
+      "name": "0",
+      "averagePrice": 14439187,
+      "count": 24953
+    },
+    {
+      "name": "1",
+      "averagePrice": 2278382,
+      "count": 5784
+    },
+    {
+      "name": "2",
+      "averagePrice": 3916142,
+      "count": 35059
+    },
+    {
+      "name": "3",
+      "averagePrice": 8590428,
+      "count": 52641
+    },
+    {
+      "name": "4",
+      "averagePrice": 16898088,
+      "count": 26049
+    },
+    {
+      "name": "5",
+      "averagePrice": 30857545,
+      "count": 27116
+    },
+    {
+      "name": "6",
+      "averagePrice": 43096690,
+      "count": 12867
+    },
+    {
+      "name": "7",
+      "averagePrice": 49343381,
+      "count": 3246
+    }
+  ],
+  "areaPrices": [
+    {
+      "name": "> 40 marla",
+      "averagePrice": 110014482,
+      "count": 2545
+    },
+    {
+      "name": "10–20 marla",
+      "averagePrice": 25075715,
+      "count": 44075
+    },
+    {
+      "name": "5–10 marla",
+      "averagePrice": 12258046,
+      "count": 62884
+    },
+    {
+      "name": "20–40 marla",
+      "averagePrice": 57497872,
+      "count": 9415
+    },
+    {
+      "name": "≤ 5 marla",
+      "averagePrice": 6214264,
+      "count": 72455
+    }
+  ],
+  "purposeDistribution": [
+    {
+      "name": "For Sale",
+      "count": 127005
+    },
+    {
+      "name": "For Rent",
+      "count": 64369
+    }
+  ],
+  "models": [
+    {
+      "name": "Linear Regression",
+      "r2": 0.22209886941452184,
+      "mae": 14251090.313254213,
+      "rmse": 29178061.743428443,
+      "mse": null
+    },
+    {
+      "name": "Decision Tree",
+      "r2": 0.751772306576324,
+      "mae": 4779885.040649308,
+      "rmse": 16482358.403385133,
+      "mse": null
+    },
+    {
+      "name": "Random Forest",
+      "r2": 0.798470531436992,
+      "mae": 4618811.750546702,
+      "rmse": 14851267.390643572,
+      "mse": null
+    }
+  ]
+}
