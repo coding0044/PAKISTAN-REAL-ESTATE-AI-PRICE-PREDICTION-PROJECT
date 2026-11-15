@@ -1,2 +1,16 @@
+[project]
+name = "pakistan-real-estate-api"
+version = "1.0.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "joblib",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+]
+
 [tool.vercel]
 entrypoint = "Backend.main:app"
