@@ -158,7 +158,7 @@ https://ai-real-estate-backend.vercel.app/
 
 API Documentation:
 
-(https://ai-real-estate-backend.vercel.app/)/docs
+https://ai-real-estate-backend.vercel.app/docs
 
 5. Run Frontend
 
